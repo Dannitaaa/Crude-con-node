@@ -1,9 +1,9 @@
 const mysql = require('mysql');
 
 const conexion = mysql.createConnection({
-    host:'us-east.connect.psdb.cloud',
-    user: 'vtva93dj5irbwcoued20',
-    password:'pscale_pw_TGIU080PaxEVNCMEbf0xmNeJ9ipiQfFChHvqWtgs6NG',
+    host:'localhost',
+    user: 'root',
+    password:'n0m3l0',
     database: 'crud_node_db'
 })
 
